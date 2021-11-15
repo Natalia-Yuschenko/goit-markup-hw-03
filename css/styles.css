@@ -157,10 +157,12 @@ header {
 }
 
 .hero-section {
-  padding: 200px;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .hero-text {
+  width: 696px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -324,7 +326,13 @@ header {
 }
 
 .team-member-photo {
-   margin-bottom: 30px;
+   /* margin-bottom: 30px; */
+}
+
+.team-member-info {
+  min-width: 151px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .team-member-name {
@@ -366,17 +374,20 @@ padding-bottom: 60px;
   margin-top: 20px;
 }
 
+.footer-contacts {
+  margin-bottom: 9px;
+}
+
+.footer-contacts:last-child {
+  margin-bottom: 0;
+}
+
 .footer-contacts-item {
   font-size: 14px;
   line-height: 1.71;
   text-decoration: none;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
-  margin-bottom: 9px;
-}
-
-.footer-contacts-item:last-child {
-  margin-bottom: 0;
 }
 
 .adress {
@@ -469,7 +480,7 @@ margin-bottom: 0;
 }
 
 .p-item-name {
-  padding-top: 20px;
+  padding: 20px 24px;
   border-left: 1px solid #EEEEEE;
   border-bottom: 1px solid #EEEEEE;
   border-right: 1px solid #EEEEEE;
@@ -481,8 +492,9 @@ margin-bottom: 0;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--main-text-color);
-  margin-left: 24px;
   margin-bottom: 4px;
+
+
 }
 
 .portfolio-section-text {
@@ -490,6 +502,6 @@ margin-bottom: 0;
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--second-text-color);
-  margin-left: 24px;
-  margin-bottom: 20px;
+  /* margin-left: 24px;
+  margin-bottom: 20px; */
 }
